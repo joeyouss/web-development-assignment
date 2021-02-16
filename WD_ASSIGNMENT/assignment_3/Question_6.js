@@ -1,4 +1,4 @@
-
+<--METHOD 1 - USING ONCLICK IN JS AND FUNCTIONS--->
 <!DOCTYPE html>
 <html>
 
@@ -20,6 +20,29 @@
 
             document.getElementById("displaymsg").textContent = message;
         }
+    </script>
+</body>
+
+</html>
+
+
+<!-- OR THE SECOND METHOD USING PROMPT AND ALERT -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DISPLAY</title>
+</head>
+
+<body>
+    <p id="print"></p>
+
+    <script>
+        fname = prompt("FIRST NAME INPUT");
+        lname = prompt("SECOND NAME INPUT");
+        document.getElementById("print").innerHTML =
+            "Welcome " + fname + " " + lname + " to the World of  Web";
     </script>
 </body>
 
